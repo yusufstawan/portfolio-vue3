@@ -11,7 +11,7 @@ import ButtonBlue from "../Button/ButtonBlue.vue";
     </h1>
     <p class="w-[376px] font-[400] text-[20px] text-[#393939] leading-[150%]">Draft is a revolutionary mobile app built to help you manage your business easily and save your money.</p>
 
-    <ButtonBlue :text="See Projects" />
+    <ButtonBlue />
   </div>
 </template>
 
