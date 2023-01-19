@@ -1,15 +1,16 @@
+<script>
+import Navbar from "../components/Navbar/Navbar.vue";
+
+export default {
+  name: "AboutView",
+  components: {
+    Navbar,
+  },
+};
+</script>
+
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="bg-[url('/src/components/Backgrounds/background-home.svg')] bg-no-repeat bg-cover h-screen flex justify-center">
+    <Navbar />
   </div>
 </template>
-
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>

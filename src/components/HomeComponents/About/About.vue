@@ -1,12 +1,20 @@
-<script setup>
+<script>
 import Photos from "./Photos.vue";
 import Introduction from "./Introduction.vue";
+
+export default {
+  name: "About",
+  components: {
+    Photos,
+    Introduction,
+  },
+};
 </script>
 
 <template>
-  <div class="absolute w-[1158px] h-[507px] top-[300px] about-background">
-    <div class="flex justify-center items-center">
-      <Photos />
+  <div class="absolute w-[1158px] h-[507px] top-[250px] about-background">
+    <div class="absolute top-[50px] left-[100px] flex justify-between items-center">
+      <Photos class="mr-[76px]" />
       <Introduction />
     </div>
   </div>
