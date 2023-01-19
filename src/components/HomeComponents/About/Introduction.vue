@@ -1,6 +1,6 @@
 <script>
-import ButtonBlue from "../../Button/ButtonBlue.vue";
-import ButtonLight from "../../Button/ButtonLight.vue";
+import ButtonBlue from "@/components/Button/ButtonBlue.vue";
+import ButtonLight from "@/components/Button/ButtonLight.vue";
 
 export default {
   name: "Introduction",

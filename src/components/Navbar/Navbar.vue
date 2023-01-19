@@ -14,7 +14,7 @@ export default {
 </script>
 
 <template>
-  <header class="flex justify-between items-center h-[79px] w-[1362px] mt-8">
+  <header class="flex justify-between items-center h-[79px] w-[1362px]">
     <NavbarLogo />
     <div class="flex justify-between">
       <NavbarLink />

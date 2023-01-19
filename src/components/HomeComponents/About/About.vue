@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-  <div class="absolute w-[1158px] h-[507px] top-[250px] about-background">
+  <div class="absolute w-[1158px] h-[507px] top-[20%] left-[15%] about-background">
     <div class="absolute top-[50px] left-[100px] flex justify-between items-center">
       <Photos class="mr-[76px]" />
       <Introduction />
