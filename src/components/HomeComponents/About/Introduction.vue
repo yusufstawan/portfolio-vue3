@@ -8,6 +8,11 @@ export default {
     ButtonBlue,
     ButtonLight,
   },
+  methods: {
+    downloadFile() {
+      alert("file terdownload");
+    },
+  },
 };
 </script>
 
@@ -22,7 +27,7 @@ export default {
 
     <div class="mt-[42px]">
       <ButtonBlue text="See Projects" to="/projects" class="mr-2" />
-      <ButtonLight text="Download Resume" />
+      <ButtonLight text="Download Resume" @download-file="downloadFile" />
     </div>
   </div>
 </template>

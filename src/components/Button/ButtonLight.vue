@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-  <button class="bg-[#DCE6FF] w-[200px] h-[54px] rounded-[20px]">
+  <button @click="$emit('downloadFile')" class="bg-[#DCE6FF] w-[200px] h-[54px] rounded-[20px]">
     {{ text }}
   </button>
 </template>
