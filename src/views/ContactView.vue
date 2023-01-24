@@ -1,5 +1,5 @@
 <script>
-import Navbar from "@/components/Navbar/Navbar.vue";
+import Navbar from "../components/Navbar/Navbar.vue";
 
 export default {
   name: "ContactView",

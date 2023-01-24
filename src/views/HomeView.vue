@@ -1,7 +1,7 @@
 <script>
-import Navbar from "@/components/Navbar/Navbar.vue";
-import About from "@/components/HomeComponents/About/About.vue";
-import Apps from "@/components/HomeComponents/Apps/Apps.vue";
+import Navbar from "../components/Navbar/Navbar.vue";
+import About from "../components/HomeComponents/About/About.vue";
+import Apps from "../components/HomeComponents/Apps/Apps.vue";
 
 export default {
   name: "HomeView",
